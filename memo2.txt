@@ -1,0 +1,5 @@
+This waitlist manager uses a singly linked list. How this system works is that each node will point to the next node in line, if you for example add a customer it will add a new node and the next node in line gets started. When a customer is removed it removes the node by updating the previous node and making it skip over it. 
+
+The head is the foundation of the whole list, it will always point to the first customer and it leads the rest of the nodes in the whole list. If the list ever becomes empty the head becomes none. If there is something added to the front of the list, the new head is the new node added to the front of the list. It will always update to point to the next node within the list. Without the head there will be no way for the list to be traversed.
+
+An engineer might also need a list like this if they need precise control over memory and structure, Efficient Insertions and deletions without shifting too many elements, and it makes the data structure more structured due to the list being more dynamic. You are able to link in new data easily and shrink out old data
